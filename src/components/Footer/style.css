@@ -1,0 +1,39 @@
+.logo {
+   position: fixed;
+   top: 0;
+   left: 50px;
+   float: left;
+   width: 100%;
+}
+
+.left a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+   }
+   .right a {
+    text-decoration: none;
+    color: #7f7f7f;
+   }
+   #high {
+    color: #0e91d3;
+   }
+   .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   }
+
+   #left {
+float: left;
+font-weight: 1000;
+width: 20%;
+   }
+   #right {
+float: right;
+margin-right: 30px;
+width:30%
+   }
+
+
