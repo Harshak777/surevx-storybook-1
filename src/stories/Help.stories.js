@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import Sidemenu from '../components/sidemenu/Sidemenu';
 import Article from '../components/article/Article';
 
@@ -15,12 +15,18 @@ export default {
   };
 
 export const SureVXHelp = () => (
-  <div class="help">
-      <Header />
-      <div class="content">
+  <div className="main">
+      <div className="header">
+        <Header />
+      </div>
+      <div className="sidemenu">
         <Sidemenu />
+      </div>
+      <div className="article">
         <Article />
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
    </div>   
 );

@@ -1,0 +1,12 @@
+.header { grid-area: header; }
+.sidemenu { grid-area: sidemenu; }
+.article { grid-area: article; }
+.footer { grid-area: footer; }
+
+.main {
+    display: grid;
+  grid-template-areas:
+  'header header header'
+  'sidemenu article article'
+  'footer footer footer';
+}

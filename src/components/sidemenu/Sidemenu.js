@@ -1,5 +1,4 @@
 import React from 'react';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import './Sidemenu.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
@@ -11,17 +10,17 @@ const Sidemenu = () => (
         <a href="#menu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Top Item</a>
         <ul class="collapse list-unstyled" id="menu1">
           <li>
-            <a href="#">
+            <a href="#art-1">
               Sub-menu item
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#art-2">
               Another sub-menu item
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#art-3">
               A third sub-menu item
             </a>
           </li>
@@ -70,7 +69,6 @@ const Sidemenu = () => (
               enter text
             </a>
           </li>
-          
         </ul>
       </li>
     </ul>

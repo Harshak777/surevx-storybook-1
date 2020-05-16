@@ -1,9 +1,9 @@
 import React from 'react';
 //import { action } from '@storybook/addon-actions';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
-import '../components/style.css';
+//import '../components/style.css';
 
 export default {
   title: 'SureVX Screen',
@@ -18,9 +18,6 @@ export const SureVXFooter = () => <Footer />;
 export const SureVXScreen = () => (
   <div class="MainScreen">
     <Header />
-  <div>
-
-  </div>
     <Footer />
   </div>
 );
