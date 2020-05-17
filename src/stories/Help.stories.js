@@ -15,18 +15,15 @@ export default {
   };
 
 export const SureVXHelp = () => (
+  <div className="body-cont">
+    <Header />
   <div className="main">
-      <div className="header">
-        <Header />
-      </div>
-      <div className="sidemenu">
-        <Sidemenu />
-      </div>
-      <div className="article">
-        <Article />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div>
+        <div className="sidemenu">
+          <Sidemenu />
+        </div>
+        <div className="article">
+            <Article />
+        </div>
+   </div>
    </div>   
 );

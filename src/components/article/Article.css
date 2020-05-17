@@ -1,6 +1,18 @@
-p {
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.Container {
     position: relative;
-    margin-top: 100px;
-    margin-left: 20%;
-    width: 90%;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 579px;
+}
+
+h1 {
+    color: #0780b7;
+    font-weight: 700;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
 }

@@ -11,20 +11,21 @@
     color: #0e91d3;
    }
    .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
+    font-size: 14px;
    }
 
    #left {
 float: left;
 font-weight: 1000;
-width: 20%;
+width: auto;
    }
    #right {
 float: right;
-margin-right: 30px;
+margin-right: 0;
 width:30%
    }
 
